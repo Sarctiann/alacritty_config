@@ -53,4 +53,7 @@ import = [
  
   [colors.cursor]
     text = "CellBackground"
-    cursor = "#d09010"
+    cursor = "CellForeground"
+
+  [cursor]
+    style = { shape = "Beam", blinking = "Always" }
