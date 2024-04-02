@@ -1,7 +1,9 @@
+shell = "/usr/bin/zsh"
+
 [window]
   padding = {x = 5, y = 5}
   dynamic_padding = true
-  decorations = 'Buttonless'
+  decorations = 'None'
   opacity = 0.80
   blur = true
   startup_mode = 'Maximized'
@@ -9,7 +11,9 @@
 
 [font]
 normal = {family = "CodeNewRoman Nerd Font Propo", style = "Regular"}
-size= 15
+size= 11
+offset = { x = 0, y = -1 }
+builtin_box_drawing = false
 
 [colors]
   [colors.primary]
