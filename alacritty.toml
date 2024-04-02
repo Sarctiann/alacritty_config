@@ -1,19 +1,28 @@
-shell = "/usr/bin/zsh"
+import = [
+  "~/.config/alacritty/local.toml"
+]
+
+# ~/.config/alacritty/local.toml file should contain specific local configuration
+# Example:
+#
+# [window]
+#   decorations = "None"
+#
+# [font]
+#   size= 11
+#   offset = { x = 0, y = -1 }
 
 [window]
   padding = {x = 5, y = 5}
   dynamic_padding = true
-  decorations = 'None'
   opacity = 0.80
   blur = true
   startup_mode = 'Maximized'
   option_as_alt = 'OnlyLeft'
 
 [font]
-normal = {family = "CodeNewRoman Nerd Font Propo", style = "Regular"}
-size= 11
-offset = { x = 0, y = -1 }
-builtin_box_drawing = false
+  normal = {family = "CodeNewRoman Nerd Font Propo", style = "Regular"}
+  builtin_box_drawing = false
 
 [colors]
   [colors.primary]
