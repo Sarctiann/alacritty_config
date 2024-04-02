@@ -42,3 +42,6 @@ builtin_box_drawing = false
     cyan = "#0db9d7"
     white = "#acb0d0"
  
+  [colors.cursor]
+    text = "CellBackground"
+    cursor = "#d09010"
