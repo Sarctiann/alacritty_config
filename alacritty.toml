@@ -78,3 +78,10 @@ color = '#db4b4b'
 [cursor]
 style = { shape = "Beam", blinking = "Always" }
 thickness = 0.3
+
+
+[keyboard]
+bindings = [
+  { key = "C", mods = "Option", action = "WordLeft" },
+  { key = "D", mods = "Option", action = "WordRight" },
+]
