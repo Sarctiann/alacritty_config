@@ -26,7 +26,7 @@ term = "xterm-256color"
 [window]
 padding = { x = 3, y = 3 }
 dynamic_padding = true
-opacity = 0.80
+opacity = 0.90
 blur = true
 decorations = "None"
 startup_mode = 'Maximized'
